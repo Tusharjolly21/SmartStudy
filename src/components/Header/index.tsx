@@ -62,7 +62,7 @@ const Header = () => {
                   width={140}
                   height={30}
                   className="w-full dark:hidden"
-                /> */}
+                }
                 {/* <Image
                   src="/images/logo/logo.svg"
                   alt="logo"
@@ -102,7 +102,7 @@ const Header = () => {
                   id="navbarCollapse"
                   className={`navbar absolute right-0 z-30 w-[250px] rounded border-[.5px] border-body-color/50 bg-white px-6 py-4 duration-300 dark:border-body-color/20 dark:bg-dark lg:visible lg:static lg:w-auto lg:border-none lg:!bg-transparent lg:p-0 lg:opacity-100 ${
                     navbarOpen
-                      ? "visibility top-full opacity-100"
+                      ? "visibility top-full max-h-[100vh] overflow-y-auto opacity-100"
                       : "invisible top-[120%] opacity-0"
                   }`}
                 >

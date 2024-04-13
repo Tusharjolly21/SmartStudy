@@ -5,44 +5,90 @@ import SingleTestimonial from "./SingleTestimonial";
 const testimonialData: Testimonial[] = [
   {
     id: 1,
-    name: "Musharof Chy",
-    designation: "Founder @TailGrids",
-    content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-    image: "/images/testimonials/auth-01.png",
-    star: 5,
+    name: "Geography",
+    path: "/geography",
+    image: "/images/testimonials/globe.png",
   },
   {
     id: 2,
-    name: "Devid Weilium",
-    designation: "Founder @UIdeck",
-    content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-    image: "/images/testimonials/auth-02.png",
-    star: 5,
+    name: "Science",
+    path: "/science",
+    image: "/images/testimonials/science.png",
   },
   {
     id: 3,
-    name: "Lethium Frenci",
-    designation: "Founder @Lineicons",
-    content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-    image: "/images/testimonials/auth-03.png",
-    star: 5,
+    name: "Environment",
+    path: "/environment",
+    image: "/images/testimonials/env.png",
+  },
+
+  {
+    id: 5,
+    name: "Indian Mapping",
+    path: "/indian-mapping",
+    image: "/images/testimonials/india.png",
+  },
+  {
+    id: 6,
+    name: "International Relations",
+    path: "/international-relations",
+    image: "/images/testimonials/ir.png",
+  },
+  {
+    id: 7,
+    name: "Governance",
+    path: "/governance",
+    image: "/images/testimonials/mayor.png",
+  },
+  {
+    id: 8,
+    name: "Social Justice",
+    path: "/social-justice",
+    image: "/images/testimonials/social-justice.png",
+  },
+  {
+    id: 9,
+    name: "Internal Security",
+    path: "/internal-security",
+    image: "/images/testimonials/security.png",
+  },
+  {
+    id: 10,
+    name: "History",
+    path: "/history",
+    image: "/images/testimonials/history.png",
+  },
+  {
+    id: 11,
+    name: "Disaster Management",
+    path: "/disaster-management",
+    image: "/images/testimonials/disaster.png",
+  },
+  {
+    id: 12,
+    name: "Economics",
+    path: "/economics",
+    image: "/images/testimonials/stats.png",
+  },
+  {
+    id: 13,
+    name: "Indian Constitution",
+    path: "/indian-constitution",
+    image: "/images/testimonials/constitution.png",
   },
 ];
 
 const Testimonials = () => {
   return (
-    <section className="dark:bg-bg-color-dark bg-gray-light relative z-10 py-16 md:py-20 lg:py-28">
+    <section className="relative z-10 bg-gray-light py-16 dark:bg-bg-color-dark md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
-          title="What Our Users Says"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          title="UPSC Notes"
+          paragraph="Explore our comprehensive notes covering a wide range of subjects. From Geography to history and beyond, our curated collection will help you grasp complex concepts and excel in your studies.."
           center
         />
 
-        <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-3">
+        <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-4">
           {testimonialData.map((testimonial) => (
             <SingleTestimonial key={testimonial.id} testimonial={testimonial} />
           ))}
