@@ -6,7 +6,7 @@ const testimonialData: Testimonial[] = [
   {
     id: 1,
     name: "Geography",
-    path: "/geography",
+    path: "/content/indian-geography",
     image: "/images/testimonials/globe.png",
   },
   {
@@ -183,8 +183,8 @@ const Testimonials = () => {
               y2="8.15715"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stopColor="#4A6CF7" stopOpacity="0" />
-              <stop offset="1" stopColor="#4A6CF7" />
+              <stop stopColor="#FFB81C" stopOpacity="0" />
+              <stop offset="1" stopColor="#FFB81C" />
             </linearGradient>
             <linearGradient
               id="paint1_linear_72:302"
@@ -194,8 +194,8 @@ const Testimonials = () => {
               y2="-2.84285"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stopColor="#4A6CF7" stopOpacity="0" />
-              <stop offset="1" stopColor="#4A6CF7" />
+              <stop stopColor="#FFB81C" stopOpacity="0" />
+              <stop offset="1" stopColor="#FFB81C" />
             </linearGradient>
             <linearGradient
               id="paint2_linear_72:302"
@@ -205,8 +205,8 @@ const Testimonials = () => {
               y2="19.1572"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stopColor="#4A6CF7" stopOpacity="0" />
-              <stop offset="1" stopColor="#4A6CF7" />
+              <stop stopColor="#FFB81C" stopOpacity="0" />
+              <stop offset="1" stopColor="#FFB81C" />
             </linearGradient>
             <linearGradient
               id="paint3_linear_72:302"
@@ -216,8 +216,8 @@ const Testimonials = () => {
               y2="31.1572"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stopColor="#4A6CF7" stopOpacity="0" />
-              <stop offset="1" stopColor="#4A6CF7" />
+              <stop stopColor="#FFB81C" stopOpacity="0" />
+              <stop offset="1" stopColor="#FFB81C" />
             </linearGradient>
           </defs>
         </svg>

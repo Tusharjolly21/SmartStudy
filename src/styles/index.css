@@ -31,3 +31,25 @@
     @apply opacity-100;
   }
 }
+.textShine-Effect {
+  background: linear-gradient(
+    to right,
+    #ffb81c 20%,
+    #6cace4 30%,
+    #1985b7 70%,
+    #4a6cf7 80%
+  );
+  text-decoration: none;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 500% auto;
+  animation: textShine 5s ease-in-out infinite alternate;
+}
+@keyframes textShine {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}

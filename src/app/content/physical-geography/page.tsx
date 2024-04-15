@@ -1,6 +1,7 @@
 import Link from "next/link";
+import GeoSection from "@/components/Geosection";
 
-const Hero = () => {
+const IndianGeo = () => {
   return (
     <>
       <section
@@ -11,14 +12,13 @@ const Hero = () => {
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4">
               <div className="mx-auto max-w-[800px] text-center">
-                <h1 className=" textShine-Effect mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
-                  Bringing best quality Education to your device
-                </h1>
+                <h4 className=" textShine-Effect mb-5 font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
+                  Complete Geography Notes for all State PSC and UPSC Exams
+                </h4>
                 <p className="mb-12 text-base !leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg md:text-xl">
-                  SmartStudy is an educational website for students. It comes
-                  with all the essential subjects and topics, detailed
-                  explanations, and pyqs you need to prepare for competitive
-                  Examinations.
+                  Notes of Geography for UPSC IAS (Prelims+Mains) with{" "}
+                  <span className="font-bold">PDF.</span> Know your detailed
+                  syllabus and download complete notes for UPSC
                 </p>
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
                   <Link
@@ -274,8 +274,9 @@ const Hero = () => {
           </svg>
         </div>
       </section>
+      <GeoSection />
     </>
   );
 };
 
-export default Hero;
+export default IndianGeo;

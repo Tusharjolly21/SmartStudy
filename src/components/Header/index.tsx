@@ -56,22 +56,21 @@ const Header = () => {
                   sticky ? "py-5 lg:py-2" : "py-8"
                 } `}
               >
-                {/* <Image
-                  src="/images/logo/logo-2.svg"
+                <Image
+                  src="/images/logo/logo-no-background.png"
                   alt="logo"
                   width={140}
                   height={30}
-                  className="w-full dark:hidden"
-                }
-                {/* <Image
-                  src="/images/logo/logo.svg"
+                  className="w-10 dark:hidden"
+                />
+                <Image
+                  src="/images/logo/logo-no-background.png"
                   alt="logo"
                   width={140}
                   height={30}
-                  className="hidden w-full dark:block"
-                  
-                /> */}
-                <h1>SmartStudy</h1>
+                  className="hidden w-10 dark:block"
+                />
+                {/* <h1>SmartStudy</h1> */}
               </Link>
             </div>
             <div className="flex w-full items-center justify-between px-4">
@@ -106,7 +105,7 @@ const Header = () => {
                       : "invisible top-[120%] opacity-0"
                   }`}
                 >
-                  <ul className="block lg:flex lg:space-x-12">
+                  <ul className="block max-h-[70vh] lg:flex lg:space-x-12">
                     {menuData.map((menuItem, index) => (
                       <li key={index} className="group relative">
                         {menuItem.path ? (
