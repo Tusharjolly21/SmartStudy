@@ -1,4 +1,5 @@
-const topics = [
+import { Content } from "@/types/contentdata";
+const topics: Content[] = [
   {
     id: 1,
     subject: "Indian: Size and Location",

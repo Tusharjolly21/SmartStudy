@@ -1,4 +1,5 @@
-const statictopics = [
+import { Content } from "@/types/contentdata";
+const statictopics: Content[] = [
   {
     id: 1,
     subject: "Important Passes of India",

@@ -20,33 +20,31 @@ const AboutSectionOne = () => {
     <section id="about" className="pt-16 md:pt-20 lg:pt-28">
       <div className="container  w-full">
         <div className="border-b border-body-color/[.15] pb-16 dark:border-white/[.15] md:pb-20 lg:pb-28">
-            <div className="w-full px-4 lg:w-full">
-                <h2 className="textShine-Effect mb-4 text-3xl font-bold !leading-tight text-black dark:text-white sm:text-4xl md:text-[45px]">
-                Unlock Your Potential Dive into Free UPSC Study Materials!
-               </h2>
-               <p className="text-base !leading-relaxed text-body-color md:text-lg mb-10">"Boost Your UPSC Journey:
-               <br/>Explore Our Toolbox of Resources Custom-Made to Skyrocket Your Success in the UPSC Exam"</p>
-              <div
-                className="mb-12 max-w-[570px] lg:mb-0"
-                data-wow-delay=".15s"
-              >
-                <div className="mx-[-12px] flex flex-wrap">
-                  <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Premium Free Study Materials" />
-                    <List text="Practice quizzes " />
-                    <List text="Mock Tests" />
-                  </div>
+          <div className="w-full px-4 lg:w-full">
+            <h2 className="textShine-Effect mb-4 text-3xl font-bold !leading-tight text-black dark:text-white sm:text-4xl md:text-[45px]">
+              Unlock Your Potential Dive into Free UPSC Study Materials!
+            </h2>
+            <p className="mb-10 text-base !leading-relaxed text-body-color md:text-lg">
+              &quot;Boost Your UPSC Journey:
+              <br />
+              &nbsp;Explore Our Toolbox of Resources Custom-Made to Skyrocket
+              Your Success in the UPSC Exam&quot;
+            </p>
+            <div className="mb-12 max-w-[570px] lg:mb-0" data-wow-delay=".15s">
+              <div className="mx-[-12px] flex flex-wrap">
+                <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
+                  <List text="Premium Free Study Materials" />
+                  <List text="Practice quizzes " />
+                  <List text="Mock Tests" />
+                </div>
 
-                  <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Download Pdfs" />
-                    <List text="PYQs" />
-                  </div>
+                <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
+                  <List text="Download Pdfs" />
+                  <List text="PYQs" />
                 </div>
               </div>
             </div>
-
-           
-         
+          </div>
         </div>
       </div>
     </section>

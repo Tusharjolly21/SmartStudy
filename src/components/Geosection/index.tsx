@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
-import topics from "@/components/GeoSection/topicsData";
-import statictopics from "@/components/GeoSection/staticData";
+import topics from "@/components/Geosection/topicsData";
+import statictopics from "@/components/Geosection/staticData";
 
 const icon = (
   <svg
