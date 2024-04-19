@@ -16,7 +16,7 @@ const icon = (
   </svg>
 );
 
-export default function GeoSection() {
+export default function Geosection() {
   return (
     <>
       <section className="relative z-10 flex justify-center bg-gray-light py-16 dark:bg-bg-color-dark  md:py-10 lg:py-10">

@@ -1,5 +1,5 @@
 import Link from "next/link";
-import GeoSection from "@/components/Geosection";
+import Geosection from "@/components/Geosection";
 
 const IndianGeo = () => {
   return (
@@ -274,7 +274,7 @@ const IndianGeo = () => {
           </svg>
         </div>
       </section>
-      <GeoSection />
+      <Geosection />
     </>
   );
 };
