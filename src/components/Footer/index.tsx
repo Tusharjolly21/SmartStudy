@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import subjects from "@/components/Footer/subjectsData";
+import subjectsTopic from "@/components/Footer/subjectsData";
 import quickLink from "@/components/Footer/quicklinkData";
 
 const icon = (
@@ -31,15 +31,15 @@ const Footer = () => {
                   Download Pdf
                 </h2>
                 <ul>
-                  {subjects.map((subject, index) => (
+                  {subjectsTopic.map((subsubject, index) => (
                     <li key={index}>
                       <Link
                         href="/"
                         className="mb-4 flex text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                         passHref
                       >
-                        <span className="mr-2">{icon}</span>
-                        {subject.subject}
+                        <span className="dark:icon-white mr-2">{icon}</span>
+                        {subsubject.subject}
                       </Link>
                     </li>
                   ))}
@@ -60,8 +60,7 @@ const Footer = () => {
                         className="mb-4 flex text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                         passHref
                       >
-                        <span className="mr-2">{link.image}</span>
-                        {link.link}
+                        {link.title}
                       </Link>
                     </li>
                   ))}

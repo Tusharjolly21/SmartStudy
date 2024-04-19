@@ -1,4 +1,5 @@
-const subjects: string[] = [
+import { Subject } from "@/types/subjects";
+const subjectsTopic: Subject[] = [
   {
     id: 1,
     subject: "Geography",
@@ -49,4 +50,4 @@ const subjects: string[] = [
   },
 ];
 
-export default subjects;
+export default subjectsTopic;

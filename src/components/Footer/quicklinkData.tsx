@@ -1,37 +1,38 @@
-const quickLink: string[] = [
+import { Topics } from "@/types/indiangeotopics";
+const quickLink: Topics[] = [
   {
     id: 1,
-    link: "Home",
+    title: "Home",
     image: "",
   },
   {
     id: 2,
-    link: "Blog",
+    title: "Blog",
     image: "",
   },
   {
     id: 3,
-    link: "QnA",
+    title: "QnA",
     image: "",
   },
   {
     id: 4,
-    link: "News",
+    title: "News",
     image: "",
   },
   {
     id: 5,
-    link: "India Map",
+    title: "India Map",
     image: "",
   },
   {
     id: 6,
-    link: "World Map",
+    title: "World Map",
     image: "",
   },
   {
     id: 7,
-    link: "Quiz",
+    title: "Quiz",
     image: "",
   },
 ];
