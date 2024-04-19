@@ -4,6 +4,7 @@ import Header from "@/components/Header";
 import ScrollToTop from "@/components/ScrollToTop";
 import { Inter } from "next/font/google";
 import "../styles/index.css";
+import Head from "next/head";
 const inter = Inter({ subsets: ["latin"] });
 import { Analytics } from "@vercel/analytics/react";
 
@@ -14,13 +15,14 @@ export default function RootLayout({
 }) {
   return (
     <html suppressHydrationWarning lang="en">
-      {/*
-        <head /> will contain the components returned by the nearest parent
-        head.js. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
-      */}
-
-      <head />
-
+      <Head>
+        <link rel="shortcut icon" href="public/favicon.ico" />
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6537827972143266"
+          crossorigin="anonymous"
+        ></script>
+      </Head>
       <body className={`bg-[#FCFCFC] dark:bg-black ${inter.className}`}>
         <Providers>
           <Header />

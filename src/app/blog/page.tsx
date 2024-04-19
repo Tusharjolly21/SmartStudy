@@ -6,7 +6,7 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Blog",
-  description: "This is Blog Page for Startup Nextjs Template",
+  description: "This is a Blog Page",
   // other metadata
 };
 
@@ -14,8 +14,8 @@ const Blog = () => {
   return (
     <>
       <Breadcrumb
-        pageName="Blog Grid"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero."
+        pageName="Latest News"
+        description="Stay Informed with Daily News Blogs from the Best Source Online!"
       />
 
       <section className="pb-[120px] pt-[120px]">

@@ -11,7 +11,7 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "SmartStudy-Your one stop solution for all your study needs",
-  description: "This is Home for Startup Nextjs Template",
+  description: "This is your home for cracking all competitive exams.",
   // other metadata
 };
 
