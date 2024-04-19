@@ -15,14 +15,14 @@ export default function RootLayout({
 }) {
   return (
     <html suppressHydrationWarning lang="en">
-      <Head>
+      {/* <Head>
         <link rel="shortcut icon" href="public/favicon.ico" />
         <script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6537827972143266"
           crossorigin="anonymous"
         ></script>
-      </Head>
+      </Head> */}
       <body className={`bg-[#FCFCFC] dark:bg-black ${inter.className}`}>
         <Providers>
           <Header />
