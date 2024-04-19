@@ -279,4 +279,4 @@ const WorldGeo = () => {
   );
 };
 
-export default IndianGeo;
+export default WorldGeo;

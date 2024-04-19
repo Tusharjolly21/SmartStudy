@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
-import topics from "@/components/Geosection/topicsData";
-import statictopics from "@/components/Geosection/staticData";
+import topicsData from "@/components/Geosection/topicsData";
+import staticData from "@/components/Geosection/staticData";
 
 const icon = (
   <svg
@@ -106,7 +106,7 @@ export default function Geosection() {
               <div className="flex justify-center">
                 <div className="grid grid-cols-1 justify-between gap-4 md:grid-cols-2">
                   <ul>
-                    {topics.map((topic, index) => (
+                    {topicsData.map((topic, index) => (
                       <li key={index}>
                         <Link
                           href="/"
@@ -121,7 +121,7 @@ export default function Geosection() {
                   </ul>
 
                   <ul>
-                    {statictopics.map((topic, index) => (
+                    {staticData.map((topic, index) => (
                       <li key={index}>
                         <Link
                           href="/"

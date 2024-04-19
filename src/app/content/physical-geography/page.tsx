@@ -279,4 +279,4 @@ const PhysicalGeo = () => {
   );
 };
 
-export default IndianGeo;
+export default PhysicalGeo;

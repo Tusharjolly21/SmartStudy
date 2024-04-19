@@ -1,5 +1,5 @@
 import { Content } from "@/types/contentdata";
-const statictopics: Content[] = [
+const statictData: Content[] = [
   {
     id: 1,
     subject: "Important Passes of India",
@@ -111,4 +111,4 @@ const statictopics: Content[] = [
     path: "",
   },
 ];
-export default statictopics;
+export default statictData;

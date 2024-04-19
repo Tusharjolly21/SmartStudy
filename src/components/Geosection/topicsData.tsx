@@ -1,5 +1,5 @@
 import { Content } from "@/types/contentdata";
-const topics: Content[] = [
+const topicsData: Content[] = [
   {
     id: 1,
     subject: "Indian: Size and Location",
@@ -112,4 +112,4 @@ const topics: Content[] = [
     path: "",
   },
 ];
-export default topics;
+export default topicsData;
