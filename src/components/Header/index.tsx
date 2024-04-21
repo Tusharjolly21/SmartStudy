@@ -5,8 +5,9 @@ import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import ThemeToggler from "./ThemeToggler";
 import menuData from "./menuData";
-
+import { useUser } from "@auth0/nextjs-auth0/client";
 const Header = () => {
+  const { user, error, isLoading } = useUser();
   // Navbar toggle
   const [navbarOpen, setNavbarOpen] = useState(false);
   const navbarToggleHandler = () => {
@@ -160,12 +161,22 @@ const Header = () => {
                 </nav>
               </div>
               <div className="flex items-center justify-end text-nowrap pr-16 lg:pr-0">
-                <Link
-                  href="/signup"
-                  className="ease-in-up rounded-sm bg-primary px-8 py-3 text-base font-medium text-white shadow-btn transition duration-300 hover:bg-opacity-90 hover:shadow-btn-hover md:block md:px-9 lg:px-6 xl:px-9"
-                >
-                  Sign Up
-                </Link>
+                {user ? (
+                  <Link
+                    href="/api/auth/logout"
+                    className="ease-in-up rounded-sm bg-primary px-8 py-3 text-base font-medium text-white shadow-btn transition duration-300 hover:bg-opacity-90 hover:shadow-btn-hover md:block md:px-9 lg:px-6 xl:px-9"
+                  >
+                    Log Out
+                  </Link>
+                ) : (
+                  <Link
+                    href="/api/auth/login"
+                    className="ease-in-up rounded-sm bg-primary px-8 py-3 text-base font-medium text-white shadow-btn transition duration-300 hover:bg-opacity-90 hover:shadow-btn-hover md:block md:px-9 lg:px-6 xl:px-9"
+                  >
+                    Sign Up
+                  </Link>
+                )}
+
                 <div>
                   <ThemeToggler />
                 </div>
