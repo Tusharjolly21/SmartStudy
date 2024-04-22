@@ -8,6 +8,7 @@ import Head from "next/head";
 const inter = Inter({ subsets: ["latin"] });
 import { Analytics } from "@vercel/analytics/react";
 import { UserProvider } from "@auth0/nextjs-auth0/client";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 export default function RootLayout({
   children,
@@ -21,6 +22,7 @@ export default function RootLayout({
           <Providers>
             <Header />
             {children}
+            <SpeedInsights />
             <Analytics />
             <Footer />
             <ScrollToTop />

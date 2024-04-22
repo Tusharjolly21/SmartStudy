@@ -1,7 +1,12 @@
 "use client";
+import { useState, useRef } from "react";
+import SuccessAlert from "@/components/SuccessAlert/index.tsx";
 import NewsLatterBox from "./NewsLatterBox";
 
 const Contact = () => {
+  const [showSuccessAlert, setShowSuccessAlert] = useState(false);
+  const formRef = useRef(null);
+
   async function handleSubmit(e) {
     e.preventDefault();
     const response = await fetch("https://api.web3forms.com/submit", {
@@ -19,18 +24,26 @@ const Contact = () => {
     });
     const result = await response.json();
     if (result.success) {
-      console.log(result);
+      setShowSuccessAlert(true);
+      formRef.current.reset();
     }
   }
+
+  const onCloseAlert = () => {
+    setShowSuccessAlert(false);
+  };
+
   return (
-    <section id="contact" className="overflow-hidden py-16 md:py-20 lg:py-28">
+    <section
+      id="contact"
+      className="relative overflow-hidden py-16 md:py-20 lg:py-28"
+    >
       <div className="container">
         <div className="-mx-4 flex flex-wrap">
           <div className="w-full px-4 lg:w-7/12 xl:w-8/12">
             <div
               className="mb-12 rounded-sm bg-white px-8 py-11 shadow-three dark:bg-gray-dark sm:p-[55px] lg:mb-5 lg:px-8 xl:p-[55px]"
-              data-wow-delay=".15s
-              "
+              data-wow-delay=".15s"
             >
               <h2 className="mb-3 text-2xl font-bold text-black dark:text-white sm:text-3xl lg:text-2xl xl:text-3xl">
                 Have any Questions? Don&apos;t hesitate to share
@@ -38,13 +51,8 @@ const Contact = () => {
               <p className="mb-12 text-base font-medium text-body-color">
                 Our support team will get back to you ASAP via email.
               </p>
-              <form onSubmit={handleSubmit}>
-                <input type="hidden" name="SmartStudy" value="SmartStudy" />
-                <input
-                  type="hidden"
-                  name="redirect"
-                  value="https://web3forms.com/success"
-                />
+              <form ref={formRef} onSubmit={handleSubmit}>
+                {showSuccessAlert && <SuccessAlert onClose={onCloseAlert} />}
                 <div className="-mx-4 flex flex-wrap">
                   <div className="w-full px-4 md:w-1/2">
                     <div className="mb-8">
