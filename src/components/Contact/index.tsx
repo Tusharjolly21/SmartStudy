@@ -1,6 +1,6 @@
 "use client";
 import { useState, useRef } from "react";
-import SuccessAlert from "@/components/SuccessAlert/index.tsx";
+import SuccessAlert from "@/components/SuccessAlert";
 import NewsLatterBox from "./NewsLatterBox";
 
 const Contact = () => {
