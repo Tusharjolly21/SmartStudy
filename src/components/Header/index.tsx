@@ -7,7 +7,6 @@ import ThemeToggler from "./ThemeToggler";
 import menuData from "./menuData";
 import { useUser } from "@auth0/nextjs-auth0/client";
 const Header = () => {
-  const { user, error, isLoading } = useUser();
   // Navbar toggle
   const [navbarOpen, setNavbarOpen] = useState(false);
   const navbarToggleHandler = () => {
@@ -38,6 +37,7 @@ const Header = () => {
   };
 
   const usePathName = usePathname();
+  const { user, error, isLoading } = useUser();
 
   return (
     <>
@@ -160,14 +160,24 @@ const Header = () => {
                   </ul>
                 </nav>
               </div>
-              <div className="flex items-center justify-end text-nowrap pr-16 lg:pr-0">
+              <div className="flex items-center justify-evenly text-nowrap pr-16 lg:pr-0">
                 {user ? (
-                  <Link
-                    href="/api/auth/logout"
-                    className="ease-in-up rounded-sm bg-primary px-8 py-3 text-base font-medium text-white shadow-btn transition duration-300 hover:bg-opacity-90 hover:shadow-btn-hover md:block md:px-9 lg:px-6 xl:px-9"
-                  >
-                    Log Out
-                  </Link>
+                  <>
+                    <h2 className=" mx-4 hidden md:block">{user.name}</h2>
+                    <Image
+                      className="mx-4 rounded-full"
+                      src={user.picture}
+                      alt={user.name}
+                      width="40"
+                      height="40"
+                    />
+                    <Link
+                      href="/api/auth/logout"
+                      className="ease-in-up rounded-sm bg-primary px-8 py-3 text-base font-medium text-white shadow-btn transition duration-300 hover:bg-opacity-90 hover:shadow-btn-hover md:block md:px-9 lg:px-6 xl:px-9"
+                    >
+                      Log Out
+                    </Link>
+                  </>
                 ) : (
                   <Link
                     href="/api/auth/login"
