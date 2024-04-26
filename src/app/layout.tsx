@@ -9,6 +9,7 @@ const inter = Inter({ subsets: ["latin"] });
 import { Analytics } from "@vercel/analytics/react";
 import { UserProvider } from "@auth0/nextjs-auth0/client";
 import { SpeedInsights } from "@vercel/speed-insights/next";
+import { CategoryProvider } from "@/context/CategoryContext";
 
 export default function RootLayout({
   children,
@@ -18,16 +19,18 @@ export default function RootLayout({
   return (
     <html suppressHydrationWarning lang="en">
       <body className={`bg-[#FCFCFC] dark:bg-black ${inter.className}`}>
-        <UserProvider>
-          <Providers>
-            <Header />
-            {children}
-            <SpeedInsights />
-            <Analytics />
-            <Footer />
-            <ScrollToTop />
-          </Providers>
-        </UserProvider>
+        <CategoryProvider>
+          <UserProvider>
+            <Providers>
+              <Header />
+              {children}
+              <SpeedInsights />
+              <Analytics />
+              <Footer />
+              <ScrollToTop />
+            </Providers>
+          </UserProvider>
+        </CategoryProvider>
       </body>
     </html>
   );

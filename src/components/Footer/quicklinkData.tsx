@@ -3,37 +3,37 @@ const quickLink: Topics[] = [
   {
     id: 1,
     title: "Home",
-    image: "",
+    path: "/",
   },
   {
     id: 2,
     title: "Blog",
-    image: "",
+    path: "/blog",
   },
   {
     id: 3,
     title: "QnA",
-    image: "",
+    path: "",
   },
   {
     id: 4,
     title: "News",
-    image: "",
+    path: "",
   },
   {
     id: 5,
     title: "India Map",
-    image: "",
+    path: "",
   },
   {
     id: 6,
     title: "World Map",
-    image: "",
+    path: "",
   },
   {
     id: 7,
     title: "Quiz",
-    image: "",
+    path: "",
   },
 ];
 
