@@ -3,7 +3,6 @@ import Link from "next/link";
 import React from "react";
 import config from "@/config";
 import SectionTitle from "../Common/SectionTitle";
-import { fetchPageBlogs } from "@/components/helper/fetch-page-blogs";
 
 const BlogCard = ({ blog }: any) => {
   const truncateBlogDesc =
