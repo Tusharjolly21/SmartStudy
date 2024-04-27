@@ -15,6 +15,6 @@ export const fetchBlogs = async (params) => {
     return response.data; // Return the data directly instead of response.json
   } catch (error) {
     console.error("Error fetching blogs:", error);
-    return null;
+    return null; // Return null or handle the error as per your application's logic
   }
 };
