@@ -1,5 +1,4 @@
 import SectionTitle from "@/components/Common/SectionTitle";
-import Image from "next/image";
 import config from "@/config";
 import { fetchPageBlogs } from "@/helper/fetch-page-Blogs";
 import { fetchCategory } from "@/helper/fetch-category";

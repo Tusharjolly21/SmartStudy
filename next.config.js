@@ -7,7 +7,6 @@ const nextConfig = {
       "s.gravatar.com",
       "lh3.googleusercontent.com",
       "assets.examples.com",
-      "127.0.0.1",
       "goldfish-app-rl2cm.ondigitalocean.app",
     ],
     remotePatterns: [
