@@ -15,7 +15,6 @@ const BlogDetailsPage = async (props) => {
     return null;
   }
   const blog = blogs.data[0];
-  console.log(blog.attributes.FeaturedImage.data.attributes.url);
   return (
     <>
       <section className="pb-[120px] pt-[150px]">
