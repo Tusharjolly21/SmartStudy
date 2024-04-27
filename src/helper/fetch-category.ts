@@ -3,11 +3,14 @@ import config from "@/config";
 
 export const fetchCategory = async () => {
   try {
-    const response = await axios.get(`${config.api}/api/categories`, {
-      headers: {
-        Authorization: `Bearer ${process.env.API_TOKEN}`,
+    const response = await axios.get(
+      `${process.env.STRAPI_URL}/api/categories`,
+      {
+        headers: {
+          Authorization: `Bearer ${process.env.API_TOKEN}`,
+        },
       },
-    });
+    );
 
     return response.data;
   } catch (error) {

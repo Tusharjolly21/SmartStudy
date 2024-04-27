@@ -4,7 +4,7 @@ import config from "@/config";
 export const fetchBlogs = async (params) => {
   try {
     const response = await axios.get(
-      `${config.api}/api/blogs?populate=*&${params}`,
+      `${process.env.STRAPI_URL}/api/blogs?populate=*&${params}`,
       {
         headers: {
           Authorization: `Bearer ${process.env.API_TOKEN}`,

@@ -32,7 +32,7 @@ const Blog = async () => {
                 </span>
                 <Image
                   className="rounded-t-lg"
-                  src={`${config.api}${blog.attributes.Thumbnail.data.attributes.url}`}
+                  src={`${process.env.STRAPI_URL}${blog.attributes.Thumbnail.data.attributes.url}`}
                   alt=""
                   width={400}
                   height={250}
