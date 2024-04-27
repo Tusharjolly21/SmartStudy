@@ -3,6 +3,7 @@ import Link from "next/link";
 import React from "react";
 import config from "@/config";
 import SectionTitle from "../Common/SectionTitle";
+import { fetchPageBlogs } from "@/components/helper/fetch-page-blogs";
 
 const BlogCard = ({ blog }: any) => {
   const truncateBlogDesc =
@@ -24,7 +25,7 @@ const BlogCard = ({ blog }: any) => {
         </span>
         <Image
           className="rounded-t-lg"
-          src={`${process.env.STRAPI_URL}${blog.attributes.Thumbnail.data.attributes.url}`}
+          src={`${process.env.NEXT_PUBLIC_STRAPI_URL}${blog.attributes.Thumbnail.data.attributes.url}`}
           alt=""
           width={400}
           height={250}
