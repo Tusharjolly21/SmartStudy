@@ -18,7 +18,7 @@ const quickLink: Topics[] = [
   {
     id: 4,
     title: "News",
-    path: "",
+    path: "/news",
   },
   {
     id: 5,
