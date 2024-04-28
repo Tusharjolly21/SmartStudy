@@ -32,6 +32,7 @@ export default function RootLayout({
           </UserProvider>
         </CategoryProvider>
       </body>
+      <meta name="google-adsense-account" content="ca-pub-6537827972143266" />
     </html>
   );
 }

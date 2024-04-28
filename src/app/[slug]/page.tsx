@@ -2,6 +2,7 @@ import Image from "next/image";
 import { fetchBlogs } from "@/helper/fetch-blogs";
 import { Metadata } from "next";
 import config from "@/config";
+import Comment from "@/components/Comment/comment";
 
 export const metadata: Metadata = {
   title: "Blog Details",
@@ -228,6 +229,7 @@ const BlogDetailsPage = async (props) => {
               )),
             )}
           </div>
+          <Comment />
         </div>
       </section>
     </>
