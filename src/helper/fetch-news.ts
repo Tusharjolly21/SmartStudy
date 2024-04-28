@@ -3,7 +3,7 @@ import config from "@/config";
 
 export const fetchNews = async () => {
   try {
-    const response = await axios.get(`${cprocess.env.STRAPI_URi}/api/news`, {
+    const response = await axios.get(`${process.env.STRAPI_URi}/api/news`, {
       headers: {
         Authorization: `Bearer ${process.env.NEWS_API_TOKEN}`,
       },

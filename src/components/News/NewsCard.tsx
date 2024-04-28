@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import { fetchNews } from "@/helper/fetch-news.ts";
+import { fetchNews } from "@/helper/fetch-news";
 
 const NewsCard = async () => {
   const news = await fetchNews();
