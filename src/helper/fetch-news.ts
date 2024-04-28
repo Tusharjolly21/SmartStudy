@@ -4,7 +4,7 @@ export const fetchNews = async () => {
   try {
     const response = await axios.get(`${process.env.STRAPI_URL}/api/news`, {
       headers: {
-        Authorization: `Bearer ${process.env.NEWS_API_TOKEN}`,
+        Authorization: `Bearer ${process.env.API_TOKEN}`,
       },
     });
 
