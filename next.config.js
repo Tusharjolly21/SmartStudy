@@ -8,6 +8,7 @@ const nextConfig = {
       "lh3.googleusercontent.com",
       "assets.examples.com",
       "goldfish-app-rl2cm.ondigitalocean.app",
+      "digital-ocean-space-bucket.blr1.digitaloceanspaces.com",
     ],
     remotePatterns: [
       {
