@@ -2,15 +2,18 @@ import axios from "axios";
 
 export const fetchNews = async () => {
   try {
-    const response = await axios.get(`${process.env.STRAPI_URL}/api/news`, {
-      headers: {
-        Authorization: `Bearer ${process.env.API_TOKEN}`,
+    const response = await axios.get(
+      `${process.env.STRAPI_URL}/api/news?sort[0]=id:desc`,
+      {
+        headers: {
+          Authorization: `Bearer ${process.env.NEWS_API_TOKEN}`,
+        },
       },
-    });
+    );
 
-    return response.data; // Return the data directly instead of response.json
+    return response.data;
   } catch (error) {
     console.error("Error fetching blogs:", error);
-    return null; // Return null or handle the error as per your application's logic
+    return null;
   }
 };
