@@ -6,7 +6,7 @@ export const fetchNews = async () => {
       `${process.env.STRAPI_URL}/api/news?sort[0]=id:desc`,
       {
         headers: {
-          Authorization: `Bearer ${process.env.NEWS_API_TOKEN}`,
+          Authorization: `Bearer ${process.env.API_TOKEN}`,
         },
       },
     );
