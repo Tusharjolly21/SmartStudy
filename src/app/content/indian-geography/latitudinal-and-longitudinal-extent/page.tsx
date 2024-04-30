@@ -60,14 +60,15 @@ const Unit2 = () => {
                   extended between two zones Tropical and subtropical.
                 </li>
                 <li className="break-words text-xl dark:text-gray-400">
-                  The dierence between the duration of the shortest and longest
-                  day of year <span className="font-bold">increases</span> as
-                  one moves from Southern latitude to Northern latitude.
+                  The difference between the duration of the shortest and
+                  longest day of year{" "}
+                  <span className="font-bold">increases</span> as one moves from
+                  Southern latitude to Northern latitude.
                 </li>
                 <li className="break-words text-xl dark:text-gray-400">
-                  There is a dierence of{" "}
+                  There is a difference of{" "}
                   <span className="font-bold">45 minutes</span> between shortest
-                  day and longest day in Kerala while a composite dierence of{" "}
+                  day and longest day in Kerala while a composite difference of{" "}
                   <span className="font-bold">5 </span>hours is found in Leh
                   (Jammu and Kashmir).
                 </li>
@@ -122,7 +123,7 @@ const Unit2 = () => {
               <p className="break-words text-xl italic dark:text-gray-400">
                 There is a 30° longitudinal difference between Eastern point
                 Kibithu (Arunachal Pradesh) and Western Point Gaur Mata
-                (Gujarat). So, there is a dierence of 2 hours (30°×4 minutes -
+                (Gujarat). So, there is a difference of 2 hours (30°×4 minutes -
                 120 minutes) between these two points.
               </p>
             </div>
