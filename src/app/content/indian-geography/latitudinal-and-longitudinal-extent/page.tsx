@@ -22,7 +22,7 @@ const Unit2 = () => {
                 Latitudinal and Longitudinal extent
               </h2>
               <ul className="list-disc">
-                <li className="break-words text-xl dark:text-gray-400">
+                <li className="break-words text-justify text-base dark:text-gray-400">
                   Longitudinal and latitudinal extension of India is almost the
                   same but their distance is a bit different on land because
                   distance between two longitudes{" "}
@@ -31,7 +31,7 @@ const Unit2 = () => {
                   expansion along east-west longitude is less in comparison to
                   north-south.
                 </li>
-                <li className="break-words text-xl dark:text-gray-400">
+                <li className="break-words text-justify text-base dark:text-gray-400">
                   The actual distance from east to west is{" "}
                   <span className="font-bold">281</span> km which is less than
                   the actual distance from north to south extent. Thus, the
@@ -52,27 +52,27 @@ const Unit2 = () => {
                 Impact of Latitudinal Extension
               </h2>
               <ul className="list-disc">
-                <li className="break-words text-xl dark:text-gray-400">
+                <li className="break-words text-justify text-base dark:text-gray-400">
                   The <span className="font-bold">Tropic of Cancer</span>{" "}
                   divides India into two parts as Southern India and Northern
                   India. Southern part lies in the Tropical Zone and the
                   northern part lies in the Subtropical Zone. So, India is
                   extended between two zones Tropical and subtropical.
                 </li>
-                <li className="break-words text-xl dark:text-gray-400">
+                <li className="break-words text-justify text-base dark:text-gray-400">
                   The difference between the duration of the shortest and
                   longest day of year{" "}
                   <span className="font-bold">increases</span> as one moves from
                   Southern latitude to Northern latitude.
                 </li>
-                <li className="break-words text-xl dark:text-gray-400">
+                <li className="break-words text-justify text-base dark:text-gray-400">
                   There is a difference of{" "}
                   <span className="font-bold">45 minutes</span> between shortest
                   day and longest day in Kerala while a composite difference of{" "}
                   <span className="font-bold">5 </span>hours is found in Leh
                   (Jammu and Kashmir).
                 </li>
-                <li className="break-words text-xl dark:text-gray-400">
+                <li className="break-words text-justify text-base dark:text-gray-400">
                   Due to the long distance from the equator, the northern part
                   of India receives less heat from the Sun and the climate is
                   colder than southern India. Whereas, the southern part of
@@ -91,13 +91,13 @@ const Unit2 = () => {
                 Impact of Longitudinal Extension
               </h2>
               <ul className="list-disc">
-                <li className="break-words text-xl dark:text-gray-400">
+                <li className="break-words text-justify text-base dark:text-gray-400">
                   <span className="font-bold">82° 30'</span> East longitude
                   passes through{" "}
                   <span className="font-bold">Naini, Allahabad.</span> This
                   longitude is also called <span>Indian Standard Time.</span>
                 </li>
-                <li className="break-words text-xl dark:text-gray-400">
+                <li className="break-words text-justify text-base dark:text-gray-400">
                   The Indian Standard Time divides the country into two halves.
                   It passes almost through the middle of the country. It passes
                   through 5 states of India which includes{" "}
@@ -106,21 +106,27 @@ const Unit2 = () => {
                     Andhra Pradesh.
                   </span>
                 </li>
-                <li className="break-words text-xl dark:text-gray-400">
+                <li className="break-words text-justify text-base dark:text-gray-400">
                   There is a general understanding among the countries of the
                   world to select the standard meridian in multiples of{" "}
                   <span className="font-bold">7°30' E.</span>
                   Hence <span className="font-bold">82° 30' </span>has been
                   selected as the Standard Meridian of India.
                 </li>
-                <li className="break-words text-xl dark:text-gray-400">
+                <li className="break-words text-justify text-base dark:text-gray-400">
                   Due to the Indian Standard Time (IST), watches show the same
                   time everywhere in India. Sun rises in the east in Arunachal
                   Pradesh <span className="font-bold"> 2 hours</span> ahead of
                   Gujarat (Kutch).
                 </li>
               </ul>
-              <p className="break-words text-xl italic dark:text-gray-400">
+              <Image
+                src="https://digital-ocean-space-bucket.blr1.digitaloceanspaces.com/Indian-Standard-Meridian.webp"
+                alt="Indian Standard point"
+                height="800"
+                width="500"
+              />
+              <p className="break-words text-justify text-base italic dark:text-gray-400">
                 There is a 30° longitudinal difference between Eastern point
                 Kibithu (Arunachal Pradesh) and Western Point Gaur Mata
                 (Gujarat). So, there is a difference of 2 hours (30°×4 minutes -

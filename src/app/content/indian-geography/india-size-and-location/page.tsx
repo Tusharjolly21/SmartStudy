@@ -17,7 +17,7 @@ const Unit1 = () => {
               <h2 className="text-2xl font-bold text-yellow">
                 Introduction to Indian Physical Geography
               </h2>
-              <p className="break-words text-xl dark:text-gray-400">
+              <p className="break-words text-justify text-base dark:text-gray-400">
                 India’s Geography encompasses one of the world’s most diverse
                 land layouts. India is the Country that occupies most of the
                 <span className="font-bold"> Indian subcontinent </span>in
@@ -29,10 +29,16 @@ const Unit1 = () => {
                 oceans, political divisions and the geological structure which
                 comprises this huge sub continent.
               </p>
+              <Image
+                alt="Responsive Layouts"
+                height="800"
+                src="https://digital-ocean-space-bucket.blr1.digitaloceanspaces.com/indiapolmap.jpg"
+                width="500"
+              />
               <h2 className="text-2xl font-bold text-yellow">
                 India-A Geographical Unit
               </h2>
-              <p className="break-words text-xl dark:text-gray-400">
+              <p className="break-words text-justify text-base dark:text-gray-400">
                 The land of the ancient civilizations, India is a vast country
                 with cultural and physical diversity, lying entirely in the
                 <span className="font-bold"> Northern Hemisphere </span> in the
@@ -45,7 +51,7 @@ const Unit1 = () => {
                 <span className="font-bold"> Hindustan </span>(the Land beyond
                 the river Sindhu).
               </p>
-              <p className="break-words text-xl  dark:text-gray-400">
+              <p className="break-words text-justify text-base  dark:text-gray-400">
                 India forms part of South Asia; it is the seventh-largest
                 country in the world in size. India has a vast geographical
                 extent, extending from the snowy ranges of the{" "}
@@ -65,14 +71,14 @@ const Unit1 = () => {
                 peninsula and relatively new like the coastal plains in both
                 eastern and western India.
               </p>
-              <p className="break-words text-xl  dark:text-gray-400">
+              <p className="break-words text-justify text-base  dark:text-gray-400">
                 To the southeast and southwest of the mainland lie the islands
                 of Andaman and Nicobar Island in the{" "}
                 <span className="font-bold"> Bay of Bengal </span> and
                 <span className="font-bold"> Lakshadweep </span> in the{" "}
                 <span className="font-bold"> Arabian Sea </span> respectively.
               </p>
-              <p className="break-words text-xl  dark:text-gray-400">
+              <p className="break-words text-justify text-base  dark:text-gray-400">
                 The mainland extends between Latitudes{" "}
                 <span className="font-bold"> 8°4’N and 37°6’N </span> and.
                 longitudes{" "}
@@ -90,15 +96,7 @@ const Unit1 = () => {
                 <span className="font-bold"> 2.4</span> percent of the total
                 geographical area of the world,
               </p>
-
-              <Image
-                alt="Responsive Layouts"
-                // className="aspect-[2/3] overflow-hidden rounded-lg object-cover"
-                height="800"
-                src="https://digital-ocean-space-bucket.blr1.digitaloceanspaces.com/indiapolmap.jpg"
-                width="500"
-              />
-              <p className="break-words text-xl  dark:text-gray-400">
+              <p className="break-words text-justify text-base  dark:text-gray-400">
                 With <span className="font-bold"> 30°</span> longitudinal
                 differences between Saurashtra in the west and Arunachal Pradesh
                 in the east, the local time difference is 120 minutes or 2
@@ -115,9 +113,15 @@ const Unit1 = () => {
                 . The standard meridian helps to maintain time harmony across
                 the country.
               </p>
+              <Image
+                src="https://digital-ocean-space-bucket.blr1.digitaloceanspaces.com/Add%20a%20subheading.png"
+                alt="Pic"
+                height="800"
+                width="500"
+              />
             </div>
             <div className="space-y-4">
-              <p className="break-words text-xl  dark:text-gray-400">
+              <p className="break-words text-justify text-base dark:text-gray-400">
                 India's land boundary is around{" "}
                 <span className="font-bold">15,200</span> kilometers in length.
                 The length of the coastline, including the mainland and the
@@ -132,7 +136,13 @@ const Unit1 = () => {
                 src="https://digital-ocean-space-bucket.blr1.digitaloceanspaces.com/Coastal-states-of-India-UPSC.png"
                 width="500"
               />
-              <p className="break-words text-xl  dark:text-gray-400">
+              <Image
+                src="https://digital-ocean-space-bucket.blr1.digitaloceanspaces.com/tropicofcancer.jpg"
+                alt="Tropic of Cancel States"
+                height="800"
+                width="500"
+              />
+              <p className="break-words text-justify text-base  dark:text-gray-400">
                 The{" "}
                 <span className="font-bold"> Tropic of Cancer (23°30’N) </span>
                 divides the country into approximately two equal parts. With the
@@ -140,7 +150,7 @@ const Unit1 = () => {
                 landmass lies in temperate land, while the other half lies in
                 the tropical region. The Tropic of Cancer Passes through{" "}
                 <span className="font-bold">
-                  Gujarat, Rajasthan, Madhya Pradesh,Chhattisgarh, Jharkhand,
+                  Gujarat, Rajasthan, Madhya Pradesh, Chhattisgarh, Jharkhand,
                   West Bengal, Tripura, and Mizoram.
                 </span>{" "}
                 However, India has always been treated as a{" "}
@@ -148,20 +158,54 @@ const Unit1 = () => {
                 temperate climate for two Primary reasons:
               </p>
               <ul>
-                <li className="break-words text-xl  dark:text-gray-400">
+                <li className="break-words text-justify text-base dark:text-gray-400">
                   • With abundant suffcient sunlight and monsoon-driven
                   rainfall, the climate of India shapes the culture and
                   lifestyle of the Indian people. For its vast extent and
                   diversity, India behaves as a unit for which it is considered
                   a subcontinent with all the characteristics of a continent.
                 </li>
-                <li className="break-words text-xl  dark:text-gray-400">
+                <li className="break-words text-justify text-base  dark:text-gray-400">
                   • The country is cut-off from the rest of Asia by the
                   <span className="font-bold"> Himalayas</span> in the north,
                   thus insulating the country from cold Siberian winds and
                   allowing the tropical climate to flourish.
                 </li>
               </ul>
+            </div>
+            <div className="space-y-4">
+              <p className="break-words text-justify text-base  dark:text-gray-400">
+                The four extreme points of India are-
+              </p>
+              <ul className="list-disc">
+                <li className="break-words text-justify text-base  dark:text-gray-400">
+                  Southernmost Point - Indira Point of Great Nicobar (6°4'N
+                  latitudes) is a village in the Nicobar district of Andaman and
+                  Nicobar islands, India. It is the location of the southernmost
+                  point of the India’s territory.
+                </li>
+                <li className="break-words text-justify text-base  dark:text-gray-400">
+                  Kanyakumari (8° 4'N latitudes) is the southern most point on
+                  the Mainland.
+                </li>
+                <li className="break-words text-justify text-base  dark:text-gray-400">
+                  Northernmost Point - At Indira Col near Siachen glacier
+                  Ladakh.
+                </li>
+                <li className="break-words text-justify text-base  dark:text-gray-400">
+                  Westernmost Point - Guhar moti or Guhar mota (in the Kutch
+                  region of Gujarat).
+                </li>
+                <li className="break-words text-justify text-base  dark:text-gray-400">
+                  Easternmost point - Kibithu (Arunachal Pradesh).
+                </li>
+              </ul>
+              <Image
+                src="https://digital-ocean-space-bucket.blr1.digitaloceanspaces.com/picpoint.jpeg"
+                alt="Points"
+                width="500"
+                height="800"
+              />
             </div>
           </div>
         </section>
