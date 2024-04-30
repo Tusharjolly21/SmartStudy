@@ -58,7 +58,7 @@ const Unit3 = () => {
                 <li className="break-words text-justify text-base dark:text-gray-400">
                   The Indian peninsula is wide in the north and has been
                   gradually sloping towards south from{" "}
-                  <span classname="font-bold">22°</span> N.
+                  <span className="font-bold">22°</span> N.
                 </li>
                 <li className="break-words text-justify text-base dark:text-gray-400">
                   North-west, north and north-east boundary of India is

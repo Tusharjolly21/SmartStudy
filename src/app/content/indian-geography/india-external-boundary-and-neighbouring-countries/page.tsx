@@ -192,7 +192,7 @@ const Unit4 = () => {
             </div>
             <div className=" grid gap-6 py-8 lg:grid-cols-2">
               <div className="rounded bg-gray-200 p-2">
-                <strong class="font-semibold text-gray-900 underline dark:text-white">
+                <strong className="font-semibold text-gray-900 underline dark:text-white">
                   India Pakistan border determination
                 </strong>
                 <ul className="pt-4">
