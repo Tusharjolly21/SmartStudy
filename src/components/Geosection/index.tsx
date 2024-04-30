@@ -16,7 +16,7 @@ const icon = (
   </svg>
 );
 
-export default function Geosection() {
+const Geosection = async () => {
   return (
     <>
       <section className="relative z-10 flex justify-center bg-gray-light py-16 dark:bg-bg-color-dark  md:py-10 lg:py-10">
@@ -109,7 +109,7 @@ export default function Geosection() {
                     {topicsData.map((topic, index) => (
                       <li key={index}>
                         <Link
-                          href="/"
+                          href={`/content/indian-geography/${topic.path}`}
                           className="mb-4 flex flex-nowrap items-center rounded-lg p-2 text-base font-bold text-body-color duration-300 hover:bg-gray-200 hover:text-primary dark:text-body-color-dark dark:hover:bg-gray-800 dark:hover:text-primary"
                           passHref
                         >
@@ -142,4 +142,5 @@ export default function Geosection() {
       </div>
     </>
   );
-}
+};
+export default Geosection;

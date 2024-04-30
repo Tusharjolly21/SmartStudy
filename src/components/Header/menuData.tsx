@@ -100,7 +100,7 @@ const menuData: Menu[] = [
       {
         id: 51,
         title: "Geography",
-        path: "/about",
+        path: "/content/indian-geography",
         newTab: false,
       },
       {

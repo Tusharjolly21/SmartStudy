@@ -1,115 +1,117 @@
 import { Content } from "@/types/contentdata";
+
 const topicsData: Content[] = [
   {
     id: 1,
     subject: "Indian: Size and Location",
-    path: "",
+    path: "/india-size-and-location",
   },
   {
     id: 2,
     subject: "Latitudinal and Longitudinal Extent",
-    path: "",
+    path: "/latitudinal-and-longitudinal-extent",
   },
   {
     id: 3,
     subject: "Boundary Line and Coastline of India",
-    path: "",
+    path: "/boundary-line-and-coastline-of-india",
   },
   {
     id: 4,
     subject: "India's External Boundary and Neighbouring Countries",
-    path: "",
+    path: "/india-external-boundary-and-neighbouring-countries",
   },
   {
     id: 5,
     subject: "Political and Administrative Divisions of India",
-    path: "",
+    path: "/political-and-administrative-divisions-of-india",
   },
   {
     id: 6,
     subject: "Political Geography of India",
-    path: "",
+    path: "/political-geography-of-india",
   },
   {
     id: 7,
     subject: "States of India",
-    path: "",
+    path: "/states-of-india",
   },
   {
     id: 8,
     subject: "Union Territories of India",
-    path: "",
+    path: "/union-territories-of-india",
   },
   {
     id: 9,
-    subject:
-      "Geological Structure of India (Archean, Dhravidian, Purana and Aryan)",
-    path: "",
+    subject: "Important Plains of India",
+    path: "/important-plains-of-india",
   },
   {
     id: 10,
-    subject: "Himalayas and Formation of India",
-    path: "",
+    subject:
+      "Geological Structure of India (Archean, Dhravidian, Purana and Aryan)",
+    path: "/geological-structure-of-india",
   },
   {
     id: 11,
-    subject: "North Indian Plains",
-    path: "",
+    subject: "Himalayas and Formation of India",
+    path: "/himalayas-and-formation-of-india",
   },
   {
     id: 12,
-    subject: "Peninsular Plateau",
-    path: "",
+    subject: "North Indian Plains",
+    path: "/north-indian-plains",
   },
   {
     id: 13,
-    subject: "Important Passes of India",
-    path: "",
+    subject: "Peninsular Plateau",
+    path: "/peninsular-plateau",
   },
   {
     id: 14,
-    subject: "Desert Region of India",
-    path: "",
+    subject: "Important Passes of India",
+    path: "/important-passes-of-india",
   },
   {
     id: 15,
     subject: "Western Ghats & Eastern Ghats",
-    path: "",
+    path: "/western-ghats-and-eastern-ghats",
   },
   {
     id: 16,
     subject: "Coastal Plains",
-    path: "",
+    path: "/coastal-plains",
   },
   {
     id: 17,
     subject: "Island Groups of India",
-    path: "",
+    path: "/island-groups-of-india",
   },
   {
     id: 18,
     subject: "Drainage Pattern",
-    path: "",
+    path: "/drainage-pattern",
   },
   {
     id: 19,
     subject: "Indus River System",
-    path: "",
+    path: "/indus-river-system",
   },
   {
     id: 20,
     subject: "Ganga River System",
-    path: "",
+    path: "/ganga-river-system",
   },
   {
     id: 21,
-    subject: "Bhramaputra River System",
-    path: "",
+    subject: "Brahmaputra River System",
+    path: "/brahmaputra-river-system",
   },
   {
     id: 22,
     subject: "Peninsular Drainage System",
-    path: "",
+    path: "/peninsular-drainage-system",
   },
 ];
+
 export default topicsData;

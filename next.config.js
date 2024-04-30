@@ -9,11 +9,12 @@ const nextConfig = {
       "assets.examples.com",
       "goldfish-app-rl2cm.ondigitalocean.app",
       "digital-ocean-space-bucket.blr1.digitaloceanspaces.com",
+      "localhost:1337",
     ],
     remotePatterns: [
       {
         protocol: "http",
-        hostname: "cdn.sanity.io",
+        hostname: "localhost:1337",
         port: "",
       },
     ],
