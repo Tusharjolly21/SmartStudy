@@ -157,6 +157,23 @@ const Unit2 = () => {
                 </ul>
               </div>
             </div>
+            <div className="space-y-4">
+              <ul className="list-disc">
+                <li className="break-words text-justify text-base dark:text-gray-400">
+                  There are some countries which have large east-west extensions
+                  due to which they have more than one standard meridian such as
+                  the <span className="font-bold">USA</span> has{" "}
+                  <span className="font-bold">7</span> time zones,{" "}
+                  <span className="font-bold">Russia</span> has{" "}
+                  <span className="font-bold">11</span>
+                  time zones etc.
+                </li>
+                <li className="break-words text-justify text-base dark:text-gray-400">
+                  The north-eastern people of India are demanding new time zone
+                  i.e. <span className="font-bold">Chaibagaan Time Zone.</span>
+                </li>
+              </ul>
+            </div>
           </div>
         </section>
       </div>
