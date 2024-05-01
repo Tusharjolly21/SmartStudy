@@ -12,6 +12,7 @@ export const metadata: Metadata = {
 
 const BlogDetailsPage = async (props) => {
   const blogs = await fetchBlogs(`&filters[slug][$eq]=${props.params.slug}`);
+  console.log(blogs.data);
   if (blogs.data.length === 0) {
     return null;
   }
