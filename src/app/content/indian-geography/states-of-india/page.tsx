@@ -472,7 +472,7 @@ const Unit7 = () => {
                   <li>
                     It is India’s{" "}
                     <span className="font-bold">smallest state by area</span>{" "}
-                    and its{" "}
+                    and{" "}
                     <span className="font-bold">
                       fourth-smallest by population.
                     </span>
@@ -578,7 +578,7 @@ const Unit7 = () => {
                     <span className="font-bold">Ahmedabad.</span> The Gujarati
                     people of India are indigenous to the state, and their
                     language <span className="font-bold">Gujarati</span> is the
-                    state’s offcial language.
+                    state’s official language.
                   </li>
                 </ul>
                 <div className="rounded bg-gray-200 p-2">
@@ -1003,7 +1003,9 @@ const Unit7 = () => {
                   <li>
                     The state is in the southwestern region of India. Its
                     capital and{" "}
-                    <span className="font-bold">largest city is Bangalore</span>
+                    <span className="font-bold">
+                      largest city is Bangalore{" "}
+                    </span>
                     and it shares borders with the{" "}
                     <span className="font-bold">
                       Arabian Sea to the west, Goa, Maharashtra, Telangana,
