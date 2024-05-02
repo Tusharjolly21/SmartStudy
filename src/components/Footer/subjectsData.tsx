@@ -1,4 +1,4 @@
-import { Subject } from "@/types/contentdata";
+import { Content } from "@/types/contentdata";
 const subjectsTopic: Content[] = [
   {
     id: 1,
