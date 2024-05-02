@@ -33,7 +33,7 @@ const menuData: Menu[] = [
       {
         id: 41,
         title: "Prelims PYQs",
-        path: "/error",
+        path: "/upsc/cse-prelims-pyqs",
         newTab: false,
       },
       {

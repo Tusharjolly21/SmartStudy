@@ -102,11 +102,6 @@ const statictData: Content[] = [
   },
   {
     id: 21,
-    subject: "Elephant Reserves in India",
-    path: "",
-  },
-  {
-    id: 22,
     subject: "World Heritage Sites in India",
     path: "",
   },

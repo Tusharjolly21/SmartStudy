@@ -31,7 +31,7 @@ const Footer = () => {
                   {subjectsTopic.map((subsubject, index) => (
                     <li key={index}>
                       <Link
-                        href="/"
+                        href={subsubject.path}
                         className="mb-4 flex text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                         passHref
                       >
