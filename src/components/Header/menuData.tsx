@@ -75,7 +75,7 @@ const menuData: Menu[] = [
       {
         id: 48,
         title: "CDS PYQS",
-        path: "/error",
+        path: "/upsc/cds-previous-year-question-papers",
         newTab: false,
       },
       {
