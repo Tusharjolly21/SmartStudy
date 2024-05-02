@@ -913,8 +913,12 @@ const Unit7 = () => {
                   </li>
                   <li>
                     It has an area of{" "}
-                    <span className="font-bold">79,710 km2</span> which is the
                     <span className="font-bold">
+                      79,710 km<sup>2</sup>
+                    </span>{" "}
+                    which is the
+                    <span className="font-bold">
+                      {" "}
                       15th largest state by area
                     </span>{" "}
                     and the{" "}
@@ -1275,7 +1279,10 @@ const Unit7 = () => {
                     cultivable land in Maharashtra is producing Jowar.
                   </li>
                   <li>
-                    Spread over <span className="font-bold">307,713 km2,</span>{" "}
+                    Spread over{" "}
+                    <span className="font-bold">
+                      307,713 km<sup>2</sup>,
+                    </span>{" "}
                     it is the{" "}
                     <span className="font-bold">
                       third-largest state by area in India.
@@ -1367,7 +1374,7 @@ const Unit7 = () => {
                     According to the 2011 census,{" "}
                     <span className="font-bold">
                       Hinduism is the major religion
-                    </span>
+                    </span>{" "}
                     in the state,{" "}
                     <span className="font-bold">followed by Christianity.</span>
                   </li>
@@ -1446,7 +1453,9 @@ const Unit7 = () => {
                     The population of Meghalaya as of 2016 is estimated to be
                     <span className="font-bold"> 3,211,474.</span> Meghalaya
                     covers an area of approximately{" "}
-                    <span className="font-bold">22,430 square kilometers.</span>
+                    <span className="font-bold">
+                      22,430 km<sup>2</sup>.
+                    </span>
                   </li>
                   <li>
                     The state is bound to the{" "}
@@ -1534,7 +1543,9 @@ const Unit7 = () => {
                   </li>
                   <li>
                     It has an area of{" "}
-                    <span className="font-bold">16,579 square kilometers</span>{" "}
+                    <span className="font-bold">
+                      16,579 km<sup>2</sup>
+                    </span>{" "}
                     with a population of{" "}
                     <span className="font-bold">
                       1,980,602 per the 2011 Census of India,
@@ -1694,7 +1705,9 @@ const Unit7 = () => {
                 <ul className="list-disc break-words text-justify text-base dark:text-gray-400">
                   <li>
                     Punjab covers an area of{" "}
-                    <span className="font-bold">50,362 square kilometers</span>{" "}
+                    <span className="font-bold">
+                      50,362 km<sup>2</sup>
+                    </span>{" "}
                     which is only{" "}
                     <span className="font-bold">
                       1.53% of India’s total geographical area.
@@ -2043,7 +2056,8 @@ const Unit7 = () => {
                   <li>
                     Tripura is a state on the northeastern side of India. The
                     <span className="font-bold">
-                      third-smallest state in the country
+                      {" "}
+                      third-smallest state in the country.
                     </span>
                   </li>
                   <li>
@@ -2134,6 +2148,7 @@ const Unit7 = () => {
                   <li>
                     Telangana is a state in Southern India situated on the
                     <span className="font-bold">
+                      {" "}
                       south-central stretch of the Indian peninsula on the high
                       Deccan Plateau.
                     </span>
@@ -2146,7 +2161,9 @@ const Unit7 = () => {
                       twelfth most populated state in India
                     </span>{" "}
                     with a geographical area of{" "}
-                    <span className="font-bold">112,077 km2</span>
+                    <span className="font-bold">
+                      112,077 km<sup>2</sup>
+                    </span>
                   </li>
                   <li>
                     Telangana is bordered by the states of{" "}
@@ -2419,8 +2436,10 @@ const Unit7 = () => {
                       fourteenth-largest state by area
                     </span>{" "}
                     in India. Covering an area of{" "}
-                    <span className="font-bold">88,752 km2,</span> it is also
-                    the
+                    <span className="font-bold">
+                      88,752 km<sup>2</sup>,
+                    </span>{" "}
+                    it is also the
                     <span className="font-bold">
                       {" "}
                       eighth-most populous country subdivision of the world.

@@ -11,13 +11,16 @@ const NewsData = async () => {
         {newsData.data.map((singleNews) => (
           <div
             key={singleNews.id} // Assuming each news item has a unique identifier
-            className="h-full overflow-hidden rounded-lg bg-white shadow-md dark:bg-gray-950"
+            className="min-h-80 overflow-hidden rounded-lg bg-white shadow-md dark:bg-gray-950"
           >
             <div className="p-4 md:p-6">
               <div className="mb-2 text-sm text-gray-500 dark:text-gray-400">
                 {singleNews.attributes.Newscategory}
               </div>
-              <Link className="mb-2 text-xl font-bold hover:underline" href="#">
+              <Link
+                className="mb-2 text-xl font-bold hover:underline"
+                href={`/news/${singleNews.attributes.slug}`}
+              >
                 {singleNews.attributes.Title}
               </Link>
               <h3 className="mb-2 text-xl font-bold">{singleNews.title}</h3>

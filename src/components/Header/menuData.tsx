@@ -33,37 +33,37 @@ const menuData: Menu[] = [
       {
         id: 41,
         title: "Prelims PYQs",
-        path: "/about",
+        path: "/error",
         newTab: false,
       },
       {
         id: 42,
         title: "UPSC Exam",
-        path: "/contact",
+        path: "/error",
         newTab: false,
       },
       {
         id: 43,
         title: "UPSC Syllabus",
-        path: "/blog",
+        path: "/error",
         newTab: false,
       },
       {
         id: 44,
         title: "UPSC Booklist",
-        path: "/blog-sidebar",
+        path: "/error",
         newTab: false,
       },
       {
         id: 45,
         title: "UPSC Calender",
-        path: "/blog-details",
+        path: "/error",
         newTab: false,
       },
       {
         id: 46,
         title: "UPSC Notification",
-        path: "/signin",
+        path: "/error",
         newTab: false,
       },
       {
@@ -106,7 +106,7 @@ const menuData: Menu[] = [
       {
         id: 52,
         title: "World Geography",
-        path: "/contact",
+        path: "/content/indian-geography",
         newTab: false,
       },
       {
@@ -130,13 +130,13 @@ const menuData: Menu[] = [
       {
         id: 56,
         title: "Polity",
-        path: "/signin",
+        path: "/error",
         newTab: false,
       },
       {
         id: 57,
         title: "Goverence",
-        path: "/signup",
+        path: "/error",
         newTab: false,
       },
       {

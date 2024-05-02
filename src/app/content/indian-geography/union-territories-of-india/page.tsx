@@ -695,7 +695,7 @@ const Unit8 = () => {
                   <li>
                     The total area of the Andaman and Nicobar Islands is{" "}
                     <span className="font-bold">8,249 </span>
-                    sq. km.
+                    km<sup>2</sup>
                   </li>
                   <li>
                     The union territory of the Andaman and Nicobar Islands has
@@ -783,7 +783,7 @@ const Unit8 = () => {
                 and <span className="font-bold">four union territories</span> in
                 India. Two of the four union territories are on the mainland of
                 India, while the other two are on islands. Length of coastline
-                <span className="font-bold">7516.6 km</span>, Mainland:{" "}
+                <span className="font-bold"> 7516.6 km</span>, Mainland:{" "}
                 <span className="font-bold">5422.6 km</span> ,Island
                 Territories: <span className="font-bold">2094 km.</span>
               </p>
@@ -796,7 +796,7 @@ const Unit8 = () => {
                   Gujarat – 1214.7 km
                 </li>
                 <li className="break-words text-justify text-base dark:text-gray-400">
-                  Andhra Pradesh – 652.6 km
+                  Andhra Pradesh – 937.7 km
                 </li>
                 <li className="break-words text-justify text-base dark:text-gray-400">
                   Tamil Nadu - 906.6 km
