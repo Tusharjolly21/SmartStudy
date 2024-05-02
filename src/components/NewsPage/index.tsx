@@ -1,9 +1,9 @@
 import React from "react";
-import { fetchNews } from "@/helper/fetch-news";
+import { fetchSingleNews } from "@/helper/fetch-single-news";
 import Link from "next/link";
 
 const NewsData = async () => {
-  const newsData = await fetchNews();
+  const newsData = await fetchSingleNews();
 
   return (
     <div>

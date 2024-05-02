@@ -1,4 +1,4 @@
-import { fetchNews } from "@/helper/fetch-news.ts";
+import { fetchNews } from "@/helper/fetch-news";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
