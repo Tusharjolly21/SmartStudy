@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 const BlogDetailsPage = async (props) => {
   const blogs = await fetchBlogs(`&filters[slug][$eq]=${props.params.slug}`);
   const blog = blogs.data[0];
-  const content = blogs.data[0].attributes.Content as typeof BlocksRenderer;
+  const content: BlocksContent = blogs.data[0].attributes.Content;
   return (
     <>
       <section className="pb-[120px] pt-[150px]">
