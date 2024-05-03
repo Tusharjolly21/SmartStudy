@@ -17,6 +17,10 @@ export default function RootLayout({
 }) {
   return (
     <html suppressHydrationWarning lang="en">
+      <meta
+        name="google-site-verification"
+        content="HAcjahPzGlaocABzjNpZDgat7oIQZftVNe1KzPqRD7w"
+      />
       <body className={`bg-[#FCFCFC] dark:bg-black ${inter.className}`}>
         <CategoryProvider>
           <UserProvider>
