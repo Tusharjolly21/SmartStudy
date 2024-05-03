@@ -1,5 +1,6 @@
 import { fetchNews } from "@/helper/fetch-news";
 import { Metadata } from "next";
+import Image from "next/image";
 
 export const metadata: Metadata = {
   title: "News Details",
@@ -28,7 +29,7 @@ const NewsMainPage = async (props) => {
             {singleNewsData.attributes.Summary}
           </p>
         </div>
-        <img
+        <Image
           alt="News Image"
           className=" aspect-[2/1] overflow-hidden rounded-lg object-fill pt-4"
           height="400"

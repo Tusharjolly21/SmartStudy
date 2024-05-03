@@ -15,7 +15,7 @@ const CDSPYQ = () => {
       id="blog"
       className="bg-gray-light py-32 dark:bg-bg-color-dark md:py-20 lg:py-28"
     >
-      <div className="container">
+      <div className="container  ">
         <SectionTitle
           title="CDS Previous Year Question Papers"
           paragraph="Practice doesn't make perfect; it makes progress. We've got your back with last year's question paper, ready for you "

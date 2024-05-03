@@ -3,6 +3,10 @@ import { fetchBlogs } from "@/helper/fetch-blogs";
 import { Metadata } from "next";
 import config from "@/config";
 import Comment from "@/components/Comment/comment";
+import {
+  BlocksRenderer,
+  type BlocksContent,
+} from "@strapi/blocks-react-renderer";
 
 export const metadata: Metadata = {
   title: "Blog Details",
@@ -11,10 +15,8 @@ export const metadata: Metadata = {
 
 const BlogDetailsPage = async (props) => {
   const blogs = await fetchBlogs(`&filters[slug][$eq]=${props.params.slug}`);
-  if (blogs.data.length === 0) {
-    return null;
-  }
   const blog = blogs.data[0];
+  const content: BlocksRenderer = blogs.data[0].attributes.Content;
   return (
     <>
       <section className="pb-[120px] pt-[150px]">
@@ -45,36 +47,29 @@ const BlogDetailsPage = async (props) => {
                     </a>
                   </div>
                 </div>
-                <p className="center mx-auto mb-4 flex max-w-screen-lg items-center justify-center text-justify text-gray-600 dark:text-gray-400 sm:flex-col md:sm:flex lg:flex lg:w-full">
+                <p className="center prose mx-auto mb-4 flex max-w-screen-lg items-center justify-center text-justify text-gray-600 dark:text-gray-400 sm:flex-col md:sm:flex lg:flex lg:w-full">
                   {blog.attributes.Summary}
                 </p>
-                <div className="mb-10 w-full overflow-hidden rounded">
+                <main className=" prose mb-10 w-full overflow-hidden rounded">
                   <div className="relative aspect-[97/60] w-full sm:aspect-[97/44]">
                     <Image
-                      src={`${blog.attributes.Thumbnail.data.attributes.url}`}
+                      src={`${blog.attributes.FeaturedImage.data.attributes.url}`}
                       alt="image"
                       fill
-                      className="object-cover object-center"
+                      className="object-fill object-center"
                     />
                   </div>
-                </div>
+                </main>
               </div>
             </div>
           </div>
-          <div>
-            {blog.attributes.Content.map((content) =>
-              content.children.map((child) => (
-                <>
-                  <br />
-                  <div
-                    className="center ctext-gray-600  mx-auto flex max-w-screen-lg items-center justify-center text-justify text-gray-600 dark:text-gray-400 sm:flex-col md:sm:flex lg:flex lg:w-full"
-                    key={blog.id}
-                    dangerouslySetInnerHTML={{ __html: child.text }}
-                  />
-                </>
-              )),
-            )}
+          <div
+            className="prose mx-auto my-10 flex max-w-screen-lg flex-col justify-center text-justify text-gray-600 dark:text-gray-400 lg:flex lg:w-full"
+            key={blog.id}
+          >
+            <BlocksRenderer content={content} />
           </div>
+
           <Comment />
         </div>
       </section>

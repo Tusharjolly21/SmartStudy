@@ -79,5 +79,5 @@ module.exports = {
       },
     },
   },
-  plugins: [nextui()],
+  plugins: [require("@tailwindcss/typography"), nextui()],
 };
