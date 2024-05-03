@@ -79,14 +79,7 @@ const Footer = () => {
                       About
                     </Link>
                   </li>
-                  <li>
-                    <Link
-                      href="/"
-                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
-                    >
-                      Terms
-                    </Link>
-                  </li>
+                  <li></li>
                   <li>
                     <Link
                       href="/contact"
@@ -97,10 +90,10 @@ const Footer = () => {
                   </li>
                   <li>
                     <Link
-                      href="/privacy"
+                      href="/privacy-and-terms"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      Privacy
+                      Privacy and Terms
                     </Link>
                   </li>
                 </ul>
