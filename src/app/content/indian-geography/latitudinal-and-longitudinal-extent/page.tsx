@@ -40,6 +40,7 @@ const Unit2 = () => {
                 </li>
               </ul>
               <Image
+                className="my-4 rounded-lg border"
                 alt="Responsive Layouts"
                 // className="aspect-[2/3] overflow-hidden rounded-lg object-cover"
                 height="800"
@@ -121,6 +122,7 @@ const Unit2 = () => {
                 </li>
               </ul>
               <Image
+                className="my-4 rounded-lg border"
                 src="https://digital-ocean-space-bucket.blr1.digitaloceanspaces.com/Indian-Standard-Meridian.webp"
                 alt="Indian Standard point"
                 height="800"

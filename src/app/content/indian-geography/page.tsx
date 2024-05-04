@@ -1,5 +1,11 @@
 import Link from "next/link";
 import Geosection from "@/components/Geosection";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Geography",
+  description: "This is Geography Page",
+};
 
 const IndianGeo = () => {
   return (

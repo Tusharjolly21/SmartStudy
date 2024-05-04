@@ -45,6 +45,7 @@ const Unit3 = () => {
                   part of land which is surrounded by water from three sides.
                 </p>
                 <Image
+                  className="my-4 rounded-lg border"
                   src="https://digital-ocean-space-bucket.blr1.digitaloceanspaces.com/peninsula.png"
                   alt="Indian Standard point"
                   height="800"

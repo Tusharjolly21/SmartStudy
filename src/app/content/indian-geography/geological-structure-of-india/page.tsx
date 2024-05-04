@@ -86,6 +86,7 @@ function Unit9() {
               </ul>
             </div>
             <Image
+              className="my-4 rounded-lg border"
               src="https://digital-ocean-space-bucket.blr1.digitaloceanspaces.com/Indian-rock-system.jpg"
               alt="Indian Standard point"
               height="800"
@@ -208,6 +209,7 @@ function Unit9() {
                 </li>
               </ul>
               <Image
+                className="my-4 rounded-lg border"
                 src="https://digital-ocean-space-bucket.blr1.digitaloceanspaces.com/India-rock-systems.jpg"
                 alt="Indian Standard point"
                 height="800"
@@ -317,6 +319,7 @@ function Unit9() {
                 </li>
               </ul>
               <Image
+                className="my-4 rounded-lg border"
                 src="https://digital-ocean-space-bucket.blr1.digitaloceanspaces.com/godwana.png"
                 alt="Indian Standard point"
                 height="800"
@@ -400,6 +403,7 @@ function Unit9() {
                 </li>
               </ul>
               <Image
+                className="my-4 rounded-lg border"
                 src="https://digital-ocean-space-bucket.blr1.digitaloceanspaces.com/deccantrap.png"
                 alt="Indian Standard point"
                 height="800"
@@ -409,6 +413,7 @@ function Unit9() {
                 Deccan Trap
               </p>
               <Image
+                className="my-4 rounded-lg border"
                 src="https://digital-ocean-space-bucket.blr1.digitaloceanspaces.com/tertiaryrocks.png"
                 alt="Indian Standard point"
                 height="800"
@@ -448,6 +453,7 @@ function Unit9() {
                 </li>
               </ul>
               <Image
+                className="my-4 rounded-lg border"
                 src="https://digital-ocean-space-bucket.blr1.digitaloceanspaces.com/quaternaryrocks.jpg"
                 alt="Indian Standard point"
                 height="800"

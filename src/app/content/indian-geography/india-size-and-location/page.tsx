@@ -30,6 +30,7 @@ const Unit1 = () => {
                 comprises this huge sub continent.
               </p>
               <Image
+                className="my-4 rounded-lg border"
                 alt="Responsive Layouts"
                 height="800"
                 src="https://digital-ocean-space-bucket.blr1.digitaloceanspaces.com/indiapolmap.jpg"
@@ -114,6 +115,7 @@ const Unit1 = () => {
                 the country.
               </p>
               <Image
+                className="my-4 rounded-lg border"
                 src="https://digital-ocean-space-bucket.blr1.digitaloceanspaces.com/Add%20a%20subheading.png"
                 alt="Pic"
                 height="800"
@@ -131,12 +133,14 @@ const Unit1 = () => {
                 <span className="font-bold"> 6100</span> kilometers.
               </p>
               <Image
+                className="my-4 rounded-lg border"
                 alt="Responsive Layouts"
                 height="800"
                 src="https://digital-ocean-space-bucket.blr1.digitaloceanspaces.com/Coastal-states-of-India-UPSC.png"
                 width="500"
               />
               <Image
+                className="my-4 rounded-lg border"
                 src="https://digital-ocean-space-bucket.blr1.digitaloceanspaces.com/tropicofcancer.jpg"
                 alt="Tropic of Cancel States"
                 height="800"
@@ -201,6 +205,7 @@ const Unit1 = () => {
                 </li>
               </ul>
               <Image
+                className="my-4 rounded-lg border"
                 src="https://digital-ocean-space-bucket.blr1.digitaloceanspaces.com/picpoint.jpeg"
                 alt="Points"
                 width="500"

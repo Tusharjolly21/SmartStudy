@@ -1,6 +1,12 @@
 import React from "react";
 import NewsData from "@/components/NewsPage";
 import SectionTitle from "@/components/Common/SectionTitle";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "News- World News",
+  description: "This is World News Page",
+};
 
 const NewsPage = () => {
   return (

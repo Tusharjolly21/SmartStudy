@@ -215,6 +215,7 @@ const Unit4 = () => {
                 </ul>
               </div>
               <Image
+                className="my-4 rounded-lg border"
                 src="https://digital-ocean-space-bucket.blr1.digitaloceanspaces.com/indiapakborder.png"
                 alt="Indian Standard point"
                 height="800"
@@ -247,6 +248,7 @@ const Unit4 = () => {
                 </ul>
               </div>
               <Image
+                className="my-4 rounded-lg border"
                 src="https://digital-ocean-space-bucket.blr1.digitaloceanspaces.com/redclliffe.png"
                 alt="RedCliffe Line"
                 height="800"
@@ -281,6 +283,7 @@ const Unit4 = () => {
                 </ul>
               </div>
               <Image
+                className="my-4 rounded-lg border"
                 src="https://digital-ocean-space-bucket.blr1.digitaloceanspaces.com/LOC.jpg"
                 alt="LOC"
                 height="800"
@@ -319,6 +322,7 @@ const Unit4 = () => {
                 </ul>
               </div>
               <Image
+                className="my-4 rounded-lg border"
                 src="https://digital-ocean-space-bucket.blr1.digitaloceanspaces.com/enclave.jpg"
                 alt="enclave"
                 height="800"
@@ -364,6 +368,7 @@ const Unit4 = () => {
                 </ul>
               </div>
               <Image
+                className="my-4 rounded-lg border"
                 src="https://digital-ocean-space-bucket.blr1.digitaloceanspaces.com/myanmarindia.jpg"
                 alt="Myanmmar India"
                 height="800"
@@ -393,6 +398,7 @@ const Unit4 = () => {
                 </ul>
               </div>
               <Image
+                className="my-4 rounded-lg border"
                 src="https://digital-ocean-space-bucket.blr1.digitaloceanspaces.com/macmohanline.png"
                 alt="MacMohan Line"
                 height="800"
@@ -420,6 +426,7 @@ const Unit4 = () => {
                 </ul>
               </div>
               <Image
+                className="my-4 rounded-lg border"
                 src="https://digital-ocean-space-bucket.blr1.digitaloceanspaces.com/lac.jpg"
                 alt="LAC"
                 height="800"

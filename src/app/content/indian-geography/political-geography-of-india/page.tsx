@@ -39,6 +39,7 @@ const Unit6 = () => {
                 peninsular India.
               </p>
               <Image
+                className="my-4 rounded-lg border"
                 src="https://digital-ocean-space-bucket.blr1.digitaloceanspaces.com/Indiastate.png"
                 alt="Political Map of India"
                 height="800"

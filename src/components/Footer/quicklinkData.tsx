@@ -23,7 +23,7 @@ const quickLink: Topics[] = [
   {
     id: 5,
     title: "India Map",
-    path: "",
+    path: "/india-map",
   },
   {
     id: 6,
