@@ -13,7 +13,7 @@ const quickLink: Topics[] = [
   {
     id: 3,
     title: "QnA",
-    path: "",
+    path: "/page-under-construction",
   },
   {
     id: 4,
@@ -28,12 +28,12 @@ const quickLink: Topics[] = [
   {
     id: 6,
     title: "World Map",
-    path: "",
+    path: "/page-under-construction",
   },
   {
     id: 7,
     title: "Quiz",
-    path: "",
+    path: "/page-under-construction",
   },
 ];
 

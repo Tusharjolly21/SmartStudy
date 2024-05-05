@@ -37,7 +37,7 @@ const Unit10 = () => {
               <p className="break-words text-justify text-base dark:text-gray-400">
                 <span className="font-bold">Physiography</span> is the branch of
                 geography that studies the present relief features of the
-                <span className="font-bold">Earth's surface.</span> The relief
+                <span className="font-bold"> Earth's surface.</span> The relief
                 features have been continuously shaped by both endogenetic and
                 exogenetic forces across dierent geological periods. India
                 secures a unique position across the world concerning its
@@ -73,9 +73,7 @@ const Unit10 = () => {
                 earth's surface are called{" "}
                 <span className="font-bold">geomorphic processes.</span> The
                 geomorphic processes are broadly categorized into{" "}
-                <span className="font-bold">
-                  endogenetic and exogenetic forces
-                </span>{" "}
+                <span className="font-bold">endogenic and exogenic forces</span>{" "}
                 based on their origin. The endogenetic forces are those forces
                 that are coming from inside the earth. While exogenetic forces
                 are drawing their power from the earth's exterior. In other
@@ -879,18 +877,18 @@ const Unit10 = () => {
                   Himalayan ranges exhibit a succession of vegetal cover from
                   the tropic to the Alpine as they rise in elevation. The
                   forests provide abundant wood used as fuel in industries and
-                  homes. The forest is also endowed with dierent kinds of trees,
-                  which act as raw materials for various industries that require
-                  timber, tree barks, and leaves as their raw materials. It is
-                  also important to note that several medicinal plants grow in
-                  the Himalayan regions. It serves as an essential source for
-                  herbal medicine, some of which the pharmaceutical industries
-                  manufacture can't manufacture. The forests here play a crucial
-                  role in providing shelter to various wild animals; the wild
-                  animals are important as they balance the ecosystem. The woods
-                  are also of agricultural significance as they oer vast
-                  pastures for grazing animals as several patches are covered
-                  with grass.
+                  homes. The forest is also endowed with different kinds of
+                  trees, which act as raw materials for various industries that
+                  require timber, tree barks, and leaves as their raw materials.
+                  It is also important to note that several medicinal plants
+                  grow in the Himalayan regions. It serves as an essential
+                  source for herbal medicine, some of which the pharmaceutical
+                  industries manufacture can't manufacture. The forests here
+                  play a crucial role in providing shelter to various wild
+                  animals; the wild animals are important as they balance the
+                  ecosystem. The woods are also of agricultural significance as
+                  they oer vast pastures for grazing animals as several patches
+                  are covered with grass.
                 </li>
                 <li>
                   <span className="font-bold">Agriculture:</span> The fertile

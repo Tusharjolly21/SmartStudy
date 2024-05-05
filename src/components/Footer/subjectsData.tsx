@@ -8,47 +8,47 @@ const subjectsTopic: Content[] = [
   {
     id: 2,
     subject: "History",
-    path: "",
+    path: "/page-under-construction",
   },
   {
     id: 3,
     subject: "Disaster Management",
-    path: "",
+    path: "/page-under-construction",
   },
   {
     id: 4,
     subject: "Indian Society",
-    path: "",
+    path: "/page-under-construction",
   },
   {
     id: 5,
     subject: "Ethics, Integrity & Aptitude",
-    path: "",
+    path: "/page-under-construction",
   },
   {
     id: 6,
     subject: "Economics",
-    path: "",
+    path: "/page-under-construction",
   },
   {
     id: 7,
     subject: "Environment",
-    path: "",
+    path: "/page-under-construction",
   },
   {
     id: 8,
     subject: "Science and Technology",
-    path: "",
+    path: "/page-under-construction",
   },
   {
     id: 9,
     subject: "Post Independence History",
-    path: "",
+    path: "/page-under-construction",
   },
   {
     id: 10,
     subject: "International Relations",
-    path: "",
+    path: "/page-under-construction",
   },
   {
     id: 11,

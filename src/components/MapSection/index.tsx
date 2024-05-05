@@ -10,17 +10,17 @@ const SingleMap = async () => {
         id="blog"
         className=" bg-slate-100 py-2 dark:bg-bg-color-dark md:py-20 lg:py-2"
       >
-        <div className="container mt-12">
+        <div className="prose container mt-12">
           <section className="w-full py-4 md:py-24 lg:py-4">
             <div className="container grid max-w-4xl items-start justify-start gap-8 px-4 md:px-6">
               {mapData.data.map((singleData) => (
                 <div key={singleData.id} className="space-y-4">
-                  <ul className="list-disc">
+                  <ul className="ml-4">
                     <li className="text-3xl font-bold text-yellow">
                       {singleData.attributes.StateName}
                     </li>
                   </ul>
-                  <ul className="flex list-disc flex-col">
+                  <ul className="ml-6 flex list-disc flex-col text-lg">
                     <li className="hover:text-yellow">
                       <Link href={`india-map/${singleData.attributes.slug1}`}>
                         {singleData.attributes.stateInfo1}

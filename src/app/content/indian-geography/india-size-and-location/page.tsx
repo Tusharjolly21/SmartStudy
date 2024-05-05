@@ -24,7 +24,7 @@ const Unit1 = () => {
                 Southern Asia. These diverse features make India one of the best
                 topographic regions. In this chapter we are going to discuss the
                 physical features of the Indian Subcontinent which includes its
-                geographical extent, the dierent frontiers and the shared
+                geographical extent, the different frontiers and the shared
                 boundaries of our nation. We will also discuss the surrounding
                 oceans, political divisions and the geological structure which
                 comprises this huge sub continent.
