@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 const MapPage = async (props) => {
   const maps = await fetchSingleMap(`&filters[slug][$eq]=${props.params.slug}`);
   const blog = maps.data[0];
-  // const content: BlocksContent = maps.data[0].attributes.MapContent;
+  const content: BlocksContent = maps.data[0].attributes.MapContent;
 
   return (
     <section
@@ -32,10 +32,7 @@ const MapPage = async (props) => {
           className="prose mx-auto my-10 flex max-w-screen-lg flex-col justify-center text-justify text-gray-600 dark:text-gray-400 lg:flex lg:w-full"
           key={maps.id}
         >
-          {/* <BlocksRenderer content={content} /> */}
-          <h1 className="flex justify-center text-4xl font-bold text-yellow">
-            Coming soon!
-          </h1>
+          <BlocksRenderer content={content} />
         </div>
       </div>
     </section>
