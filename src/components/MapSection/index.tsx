@@ -34,7 +34,7 @@ const SingleMap = async () => {
                 className="flex items-center justify-between text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-50"
                 href={`india-map/${singleData.attributes.slug3}`}
               >
-                <span>{singleData.attributes.stateinfo3}r</span>
+                <span>{singleData.attributes.stateinfo3}</span>
                 <ChevronRightIcon className="h-5 w-5" />
               </Link>
             </nav>
