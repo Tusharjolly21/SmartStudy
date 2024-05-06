@@ -25,7 +25,7 @@ const testimonialData: Testimonial[] = [
   {
     id: 5,
     name: "Indian Mapping",
-    path: "/page-under-construction",
+    path: "/india-map",
     image: "/images/testimonials/india.png",
   },
   {
