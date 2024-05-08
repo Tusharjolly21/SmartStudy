@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import topicsData from "@/components/Geosection/topicsData";
 import staticData from "@/components/Geosection/staticData";
+import { fetchStaticData } from "@/helper/fetch-static-parts";
 
 const icon = (
   <svg
@@ -16,7 +17,8 @@ const icon = (
   </svg>
 );
 
-const Geosection = async () => {
+const Geosection = async (props) => {
+  const staticApiData = await fetchStaticData();
   return (
     <>
       <section className="relative z-10 flex justify-center bg-gray-light py-16 dark:bg-bg-color-dark  md:py-10 lg:py-10">
@@ -121,15 +123,15 @@ const Geosection = async () => {
                   </ul>
 
                   <ul>
-                    {staticData.map((topic, index) => (
-                      <li key={index}>
+                    {staticApiData.data.map((topic) => (
+                      <li key={topic.id}>
                         <Link
-                          href="/"
+                          href={`indian-geography/${topic.attributes.slug}`}
                           className="mb-4 flex flex-nowrap items-center rounded-lg p-2 text-base font-bold text-body-color duration-300 hover:bg-gray-200 hover:text-primary dark:text-body-color-dark dark:hover:bg-gray-800 dark:hover:text-primary"
                           passHref
                         >
                           <span className="mr-2">{icon}</span>
-                          {topic.subject}
+                          {topic.attributes.Title}
                         </Link>
                       </li>
                     ))}
