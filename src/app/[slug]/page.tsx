@@ -64,7 +64,7 @@ const BlogDetailsPage = async (props) => {
             </div>
           </div>
           <div
-            className="prose mx-auto my-10 flex max-w-screen-lg flex-col justify-center text-justify text-gray-600 dark:text-gray-400 lg:flex lg:w-full"
+            className="prose dark:prose-invert mx-auto my-10 flex max-w-screen-lg flex-col justify-center text-justify text-gray-600 dark:text-gray-400 lg:flex lg:w-full"
             key={blog.id}
           >
             <BlocksRenderer content={content} />
